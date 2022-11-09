@@ -74,7 +74,7 @@
   margin-left: auto;
 }
 
-.header__contacts--link {
+.header__contacts-link {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -86,16 +86,14 @@
   text-decoration: none;
   color: var(--primary-text-color);
   transition: color var(--animation);
-}
 
-.header__contacts--link {
   &:hover,
   &:focus {
     color: var(--link-color);
   }
 }
 
-.header__contacts--icon {
+.header__contacts-icon {
   margin-right: 10px;
   fill: currentColor;
 }

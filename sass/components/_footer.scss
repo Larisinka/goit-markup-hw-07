@@ -14,7 +14,7 @@
   margin-bottom: 20px;
 }
 
-.footer__logo--text {
+.footer__logo-text {
   color: var(--primary-white-color);
 }
 
@@ -47,7 +47,7 @@
 }
 
 // Subscribe
-.subscribe__subtitle {
+.follow__subtitle {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
@@ -58,18 +58,18 @@
   margin-bottom: 20px;
 }
 
-.subscribe__social {
+.follow__social {
   display: flex;
   justify-content: center;
 }
 
-.subscribe__social--item {
+.follow__social-item {
   &:not(:last-child) {
     margin-right: 10px;
   }
 }
 
-.subscribe__social--link {
+.follow__social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,16 +85,16 @@
   }
 }
 
-.subscribe__social--icon {
+.follow__social-icon {
   fill: currentColor;
 }
 
 // newsletters
-.newsletters {
+.subscribe {
   margin-left: auto;
 }
 
-.newsletters__title {
+.subscribe__title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -104,14 +104,14 @@
   color: var(--primary-white-color);
 }
 
-.newsletters__wrap {
+.subscribe__form {
   display: flex;
   gap: 12px;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.newsletters__input {
+.subscribe__input {
   height: 50px;
   width: 358px;
   padding: 15px 16px;
@@ -131,13 +131,13 @@
   }
 }
 
-.newsletters__btn {
+.subscribe__btn {
   width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.newsletters__btn--icon {
+.subscribe__btn-icon {
   display: block;
   margin-left: 10px;
 }

@@ -436,7 +436,7 @@ body {
   margin-left: auto;
 }
 
-.header__contacts--link {
+.header__contacts-link {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -449,12 +449,11 @@ body {
   color: var(--primary-text-color);
   transition: color var(--animation);
 }
-
-.header__contacts--link:hover, .header__contacts--link:focus {
+.header__contacts-link:hover, .header__contacts-link:focus {
   color: var(--link-color);
 }
 
-.header__contacts--icon {
+.header__contacts-icon {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -463,7 +462,7 @@ body {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg-img.jpg), var(--secondary-backgroung-color);
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg-img.jpg) no-repeat center/cover, var(--secondary-backgroung-color);
 }
 
 .hero .section {
@@ -602,7 +601,7 @@ body {
   margin-bottom: 10px;
 }
 
-.team__member--position {
+.team__member-position {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
@@ -616,11 +615,11 @@ body {
   justify-content: center;
 }
 
-.team__social--item:not(:last-child) {
+.team__social-item:not(:last-child) {
   margin-right: 10px;
 }
 
-.team__social--link {
+.team__social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -630,12 +629,12 @@ body {
   color: var(--icons-color);
   transition: background-color var(--animation), color var(--animation);
 }
-.team__social--link:hover, .team__social--link:focus {
+.team__social-link:hover, .team__social-link:focus {
   background-color: var(--icons-bg-color);
   color: var(--icons-hover-color);
 }
 
-.team__social--icon {
+.team__social-icon {
   fill: currentColor;
 }
 
@@ -798,7 +797,7 @@ body {
   margin-bottom: 20px;
 }
 
-.footer__logo--text {
+.footer__logo-text {
   color: var(--primary-white-color);
 }
 
@@ -824,7 +823,7 @@ body {
   color: var(--link-color);
 }
 
-.subscribe__subtitle {
+.follow__subtitle {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
@@ -835,16 +834,16 @@ body {
   margin-bottom: 20px;
 }
 
-.subscribe__social {
+.follow__social {
   display: flex;
   justify-content: center;
 }
 
-.subscribe__social--item:not(:last-child) {
+.follow__social-item:not(:last-child) {
   margin-right: 10px;
 }
 
-.subscribe__social--link {
+.follow__social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -855,19 +854,19 @@ body {
   background: rgba(255, 255, 255, 0.1);
   transition: background-color var(--animation);
 }
-.subscribe__social--link:hover, .subscribe__social--link:focus {
+.follow__social-link:hover, .follow__social-link:focus {
   background-color: var(--icons-bg-color);
 }
 
-.subscribe__social--icon {
+.follow__social-icon {
   fill: currentColor;
 }
 
-.newsletters {
+.subscribe {
   margin-left: auto;
 }
 
-.newsletters__title {
+.subscribe__title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -877,14 +876,14 @@ body {
   color: var(--primary-white-color);
 }
 
-.newsletters__wrap {
+.subscribe__form {
   display: flex;
   gap: 12px;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.newsletters__input {
+.subscribe__input {
   height: 50px;
   width: 358px;
   padding: 15px 16px;
@@ -895,33 +894,33 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-.newsletters__input::-moz-placeholder {
+.subscribe__input::-moz-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.newsletters__input:-ms-input-placeholder {
+.subscribe__input:-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.newsletters__input::placeholder {
+.subscribe__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.newsletters__btn {
+.subscribe__btn {
   width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.newsletters__btn--icon {
+.subscribe__btn-icon {
   display: block;
   margin-left: 10px;
 }
@@ -1012,7 +1011,7 @@ body {
   padding-left: 35px;
 }
 
-.form__input--icon {
+.form__input-icon {
   position: absolute;
   left: 12px;
   bottom: 50%;
@@ -1020,7 +1019,7 @@ body {
   fill: var(--text-color);
   transition: fill var(--animation);
 }
-.form__input:focus + .form__input--icon {
+.form__input:focus + .form__input-icon {
   fill: var(--link-color);
 }
 

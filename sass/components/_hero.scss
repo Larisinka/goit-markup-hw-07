@@ -3,7 +3,8 @@
   margin-left: auto;
   margin-right: auto;
   background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/bg-img.jpg), var(--secondary-backgroung-color);
+    url(../images/bg-img.jpg) no-repeat center/cover,
+    var(--secondary-backgroung-color);
 }
 
 .hero {

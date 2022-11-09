@@ -36,7 +36,7 @@
   margin-bottom: 10px;
 }
 
-.team__member--position {
+.team__member-position {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
@@ -50,13 +50,13 @@
   justify-content: center;
 }
 
-.team__social--item {
+.team__social-item {
   &:not(:last-child) {
     margin-right: 10px;
   }
 }
 
-.team__social--link {
+.team__social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,6 +72,6 @@
   }
 }
 
-.team__social--icon {
+.team__social-icon {
   fill: currentColor;
 }
